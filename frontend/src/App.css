@@ -1,0 +1,42 @@
+#root {
+  width: 100vw;
+ background-color: #ece6de;
+ 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+.read-the-docs {
+  color: #888;
+}
+.hero-section {
+  height: 500px;       /* hero section ki fixed height */
+  display: flex;       /* image ko center align karne ke liye */
+  justify-content: center;
+  align-items: center;
+  background: #000;    /* gap ke liye background color */
+  overflow: hidden;
+  
+}
+
+.hero-img {
+/* height ko 300px tak limit kar do */
+ height: 400px;        /* aspect ratio maintain kare */
+  object-fit: contain; /* image shrink hogi, crop/stretch nahi */
+}
+#carouselExampleAutoplaying{
+background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+/* Hover पर dropdown show */
+.nav-item.dropdown:hover .dropdown-menu,
+.nav-item.dropdown:focus .dropdown-menu {
+  display: block;
+  margin-top: 0; /* smooth alignment */
+}
+
+  

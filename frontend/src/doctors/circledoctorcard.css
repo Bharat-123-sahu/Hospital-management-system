@@ -1,0 +1,66 @@
+.sidenav {
+  height: 100vh;
+  width: 18vw;
+  position: relative; /* Keep it fixed on the left */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ECE6DE;
+  /* overflow-x: hidden; */
+  padding-top: 20px;
+  box-sizing: border-box;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ff11ff; /* Fixed color */
+}
+
+.sidenav .active {
+  color: #000; /* Active link style */
+  font-weight: bold;
+}
+
+/* Divider line after image */
+.hero-divider {
+  border: none;
+  border-top: 2px solid #ccc; /* horizontal line */
+  margin: 0;
+}
+
+.sidenav {
+  height: 100vh;
+  width: 18vw;
+  position: relative; /* image ke neeche se start hoga */
+  z-index: 1;
+  background-color: #ECE6DE;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ff11ff;
+}
+
+.sidenav .active {
+  color: #000;
+  font-weight: bold;
+}
